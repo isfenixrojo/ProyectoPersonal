@@ -1,0 +1,1 @@
+Este proyecto surgio con la idea de hacer un portafolio profesional.
