@@ -1,0 +1,22 @@
+h1 {
+    color: green;
+    background-color: gainsboro;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+footer {
+    background-color: cadetblue;
+    color: darkblue;
+    text-align: center;
+}
+
+li strong {
+    background-color: darkkhaki;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 1px;
+}
