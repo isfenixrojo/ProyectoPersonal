@@ -1,22 +1,41 @@
 h1 {
-    color: green;
-    background-color: gainsboro;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
 }
 
-img {
-    width: 20%;
-    height: 20%;
+body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
 }
 
-footer {
-    background-color: cadetblue;
-    color: darkblue;
+html {
+    background-color: #00539fc9;
+    font-size: 10px;
+    /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif;
+    /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+}
+
+h1 {
+    font-size: 60px;
     text-align: center;
 }
 
-li strong {
-    background-color: darkkhaki;
-    border-radius: 5px;
-    padding: 1px;
-    margin: 1px;
+img {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1px;
 }
