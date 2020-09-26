@@ -39,3 +39,9 @@ li {
     line-height: 1;
     letter-spacing: 1px;
 }
+
+footer {
+    background: #00529f63;
+    padding: 10px;
+    text-align: center;
+}
