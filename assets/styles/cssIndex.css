@@ -40,12 +40,12 @@ li {
     letter-spacing: 1px;
 }
 
-<<<<<<< HEAD
 footer {
     background: #00529f63;
     padding: 10px;
     text-align: center;
-=======
+}
+
 header {
     background: #00529f48
 }
@@ -81,5 +81,4 @@ nav li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
->>>>>>> master
 }
