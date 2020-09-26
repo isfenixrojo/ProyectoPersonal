@@ -8,7 +8,7 @@ miImage.onclick = function() {
     }
 }
 
-let miBoton = document.querySelector('button');
+let miBoton = document.getElementById('aLogin');
 let miTitulo = document.querySelector('h1');
 
 function estableceNombreUsuario() {
@@ -17,7 +17,7 @@ function estableceNombreUsuario() {
         estableceNombreUsuario();
     } else {
         localStorage.setItem('nombre', miNombre);
-        miTitulo.innerHTML = miNombre + 'Es genial';
+        miTitulo.innerHTML = miNombre + ' Es genial';
     }
 }
 
